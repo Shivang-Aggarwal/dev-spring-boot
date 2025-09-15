@@ -48,11 +48,17 @@
 			<optional>true</optional>
 		</dependency>
 
-		<!-- automatically exposes endpoints for metrics -->
-		<dependency>
+		<!-- add support for spring boot actuator -->
+		<!-- <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
+		</dependency> -->
+
+		<!-- add support for spring security -->
+		<!-- <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency> -->
 	</dependencies>
 
 	<build>
